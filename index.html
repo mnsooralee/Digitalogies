@@ -9,17 +9,30 @@
     <title>Digitalogies</title>
 </head>
 <body>
-    <header>
+    <nav>
+        <ul class="sidebar">
+            <a id="#cross" onclick="hideSideBar()"><i class="fa-solid fa-xmark"></i></a>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Resiurces</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><button><b>Get Free Strategy</b></button></li>
+            
+        </ul>
+
         <div id="navbar">
+            
             <div id="navlogo"><a id="logo" href="#"><b>Logo</b></a></div>
             <div id="navbuttons">
                 <a href="#">Shop</a>
                 <a href="#">About Us</a>
                 <a href="#">Resiurces</a>
                 <a href="#">Blog</a>
-                <button><b>Get Free Strategy</b></button>
+                <button><b>Get Free Strategy</b></button>             
             </div>
-        </div>
+            <a id="sidebtn" onclick=showSideBar()><i class="fas fa-bars"></i></a>
+        </div>    
+    </nav>    
         <br><br>
         
             
@@ -49,8 +62,7 @@
                 </div>
             </div>
         </div>
-    </header>
 
-    <script src="assets/action.js"></script>
+    <script src="assets/task.js"></script>
 </body>
 </html>
